@@ -1,0 +1,49 @@
+body {
+  background-color: hsl(218deg, 23%, 16%);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.advice-generator {
+  background-color: hsl(217deg, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20rem;
+  height: auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.advice-generator .advice-number {
+  color: hsl(150deg, 100%, 66%);
+}
+.advice-generator .advice {
+  color: white;
+  margin-bottom: 1rem;
+}
+.advice-generator img {
+  width: 20rem;
+  margin: 0 auto;
+}
+.advice-generator .change-advice {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: -2.5rem;
+  cursor: pointer;
+}
+.advice-generator .change-advice img {
+  width: 1.5rem;
+}
+.advice-generator .change-advice:hover {
+  background-color: hsl(150deg, 100%, 66%);
+}
